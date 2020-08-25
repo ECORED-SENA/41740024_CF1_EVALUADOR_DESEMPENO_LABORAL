@@ -36,13 +36,14 @@ html(lang="es")
                             .card-body
 
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('play', 'Introducción', '#introduccion')
-                                    +navTemaItem('1', 'Cooperación turística internacional', '#tema-1')
-                                    +navTemaItem('2', 'DMarketing y promoción turística', '#tema-2')
-                                    +navTemaItem('question', 'Actividad didáctica', '#evaluacion')
-                                    +navTemaItem('glosary', 'Glosario', '#glosario')
-                                    +navTemaItem('folder', 'Material complementario', '#anexos')
-                                    +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
+                                    +navTemaItem('play', 'Introducción', 'main.html#page/introduccion/')
+                                    +navTemaItem('1', 'Normatividad', 'main.html#page/normatividad/')
+                                    +navTemaItem('2', 'LEY 909 DE 2004 - Evaluación del Desempeño', 'main.html#page/ley909/')
+                                    +navTemaItem('3', 'DECRETO LEY 760 DE 2005', 'main.html#page/ley760/')
+                                    +navTemaItem('4', 'DECRETO 1083 DE 2015 - Evaluación del desempeño y calificación de servicios', 'main.html#page/decreto1083/')  
+                                    +navTemaItem('5', 'ACUERDO 617 DE 2018 - Sistema Tipo de Evaluación del Desempeño', 'main.html#page/acuerdo617/')
+                                    +navTemaItem('6', 'Anexo técnico del sistema tipo de evaluación del desempeño', 'main.html#page/anexo/')  
+                                    +navTemaItem('7', 'DECRETO 815 DE 2018 - Competencias Laborales para los empleos públicos', 'main.html#page/decreto815/')
 
 
         section#mainContent         
@@ -52,8 +53,17 @@ html(lang="es")
                 include pages/1-tema.pug
             #tema-2
                 include pages/2-tema.pug
-            #evaluacion
-                include pages/actividad-1.pug
+            #tema-3
+                include pages/3-tema.pug
+            #tema-4
+                include pages/4-tema.pug
+            #tema-5
+                include pages/5-tema.pug
+            #tema-6
+                include pages/6-tema.pug
+            #tema-7
+                include pages/7-tema.pug
+
             #glosario
                 include pages/glosario.pug
             #anexos
