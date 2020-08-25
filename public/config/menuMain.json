@@ -1,0 +1,83 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "Introduccion",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/intro.html"
+  },  
+  { 
+    "id": 2,
+    "icon": "fa fa-file-text-o",
+    "slug": "normatividad",
+    "title": "1. Normatividad",
+    "breadcrumb": ["Inicio","tema 1"],
+    "path": "pages/1-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "normatividad",
+        "title": "1.1 CONSTITUCIÓN POLÍTICA DE COLOMBIA - Función pública ",
+        "anchor": "11"
+      }
+    ]
+   },
+
+  {
+    "id": 3,
+    "icon": "fa fa-file-text-o",
+    "slug": "ley909",
+    "title": "2. LEY 909 DE 2004 - Evaluación del Desempeño",
+    "breadcrumb": ["Inicio","Tema 2"],
+    "path": "pages/2-tema.html"
+  },
+
+  {
+    "id": 4,
+    "icon": "fa fa-file-text-o",
+    "slug": "ley760",
+    "title": "3. DECRETO LEY 760 DE 2005",
+    "breadcrumb": ["Inicio","Tema 3"],
+    "path": "pages/3-tema.html" 
+  },
+  {
+    "id": 4,
+    "icon": "fa fa-file-text-o",
+    "slug": "decreto1083",
+    "title": "4. DECRETO 1083 DE 2015 - Evaluación del desempeño y calificación de servicios",
+    "breadcrumb": ["Inicio","Tema 4"],
+    "path": "pages/4-tema.html"
+  },
+  {
+    "id": 4,
+    "icon": "fa fa-file-text-o",
+    "slug": "acuerdo617",
+    "title": "5. ACUERDO 617 DE 2018 - Sistema Tipo de Evaluación del Desempeño",
+    "breadcrumb": ["Inicio","Tema 5"],
+    "path": "pages/5-tema.html"
+  },
+  {
+    "id": 4,
+    "icon": "fa fa-file-text-o",
+    "slug": "anexo",
+    "title": "6. Anexo técnico del sistema tipo de evaluación del desempeño",
+    "breadcrumb": ["Inicio","Tema 6"],
+    "path": "pages/6-tema.html"
+  },
+  {
+    "id": 4,
+    "icon": "fa fa-file-text-o",
+    "slug": "decreto815",
+    "title": "7. DECRETO 815 DE 2018 - Competencias Laborales para los empleos públicos",
+    "breadcrumb": ["Inicio","Tema 7"],
+    "path": "pages/7-tema.html"
+  }
+  
+]
